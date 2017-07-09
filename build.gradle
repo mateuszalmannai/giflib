@@ -1,7 +1,11 @@
+plugins {
+  id 'java'
+  id 'idea'
+  id 'org.springframework.boot' version '1.4.3.RELEASE'
+}
+
 group 'com.teamtreehouse'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
 
 sourceCompatibility = 1.8
 
