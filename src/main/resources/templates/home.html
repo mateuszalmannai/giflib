@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8"/>
+  <link rel="stylesheet" th:href="@{/app.css}"/>
   <title>giflib | Home</title>
 </head>
 <body>
@@ -9,7 +10,7 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur consequuntur fugiat harum perspiciatis
   sapiente tempore velit. A accusantium doloribus ducimus id molestiae neque numquam quaerat tenetur ut voluptatum.
   Unde?</p>
-<img src="http://via.placeholder.com/300/5fcf80/000000" alt="logo"/>
+<img th:src="@{/gifs/compiler-bot.gif}" alt="logo"/>
 
 </body>
 </html>
